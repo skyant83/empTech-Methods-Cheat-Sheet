@@ -1,4 +1,4 @@
-# EmpTech Methods Cheat Sheet
+# EmpTech Methods Info Sheet
 ### by Bad
 
  
