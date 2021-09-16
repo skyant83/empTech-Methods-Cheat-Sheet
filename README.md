@@ -28,7 +28,9 @@ class Program{
 
 -------------------------------------------------------------------
 ### Creating Methods
-![Creating a Method](https://i.imgur.com/i65RvW2.gif)
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=sUeO9Hmv-H0
+" target="_blank"><img src="http://img.youtube.com/vi/sUeO9Hmv-H0/0.jpg" 
+alt="Creating Methods" width="240" height="180" border="10" /></a>
 -------------------------------------------------------------------
 ### Calling Methods 
 **Lets Say I Have Two Separate Methods**
