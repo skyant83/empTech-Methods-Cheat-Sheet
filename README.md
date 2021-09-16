@@ -7,7 +7,7 @@
 ### Methods
  * Also known as functions
  * Can be considered as _separate programs_
- * ==Can't work unless called/activated==
+ * Can't work unless called/activated
  * Methods can mix and match
  * Example of a Method:
 ```csharp
@@ -118,7 +118,7 @@ I'm the Second Method
 ```
 -------------------------------------------------------------------
 ### Parameter Methods
-* Parameter Methods are regular methods that have ==*parameters* added== in the () section of the Method_Name
+* Parameter Methods are regular methods that have *parameters* added in the () section of the Method_Name
 * Used so that information can be sent from one method to the parameter method for it to do *its own*  set of commands
 Example
 ```csharp
@@ -130,7 +130,7 @@ class Method3{
 }
 ```
 
-**To put it in simpler terms, the parameters can set as variable that ==only this specific method can use==**
+**To put it in simpler terms, the parameters can set as variable that only this specific method can use**
 
 **Lets add parameters to the method above**
 ```csharp
