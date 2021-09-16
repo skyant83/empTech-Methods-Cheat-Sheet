@@ -1,5 +1,5 @@
 # EmpTech Methods Cheat Sheet
-### by Gabby Badiola 12-Gonzalez
+### by Bad
 
  
 
