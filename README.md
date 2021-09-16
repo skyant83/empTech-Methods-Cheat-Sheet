@@ -27,7 +27,7 @@ class Program{
 >2.  the Main Program is the only one that can run on it's own.
 
 -------------------------------------------------------------------
-### Creating Methods
+### Creating A New Class File (i.e. new .cs)
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=sUeO9Hmv-H0
 " target="_blank"><img src="http://img.youtube.com/vi/sUeO9Hmv-H0/0.jpg" 
 alt="Creating Methods" width="480" height="360" border="10" /></a>
