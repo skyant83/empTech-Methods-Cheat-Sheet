@@ -10,9 +10,9 @@
     + [Return Methods](#return-methods)
     + [Applying both in One Method](#applying-both-in-one-method)
    * [Commonly Asked Questions](#commonly-asked-questions)
-	 + [Q~1~. What are Classes and why do they go before Methods.](#q-1--what-are-classes-and-why-do-they-go-before-methods-ie)
-	  + [Q~2~. What is the point of adding public before the Method declaration.](#q-2--what-is-the-point-of-adding-public-before-the-method-declaration-ie)
-	  + [Q~3~. What does adding static before the return type do?](#q-3--what-does-adding-static-before-the-return-type-do-ie)
+	 + [Q1. What are Classes and why do they go before Methods.](#q-1--what-are-classes-and-why-do-they-go-before-methods-ie)
+	  + [Q2. What is the point of adding public before the Method declaration.](#q-2--what-is-the-point-of-adding-public-before-the-method-declaration-ie)
+	  + [Q3~. What does adding static before the return type do?](#q-3--what-does-adding-static-before-the-return-type-do-ie)
    
 
 
@@ -294,7 +294,7 @@ Input the second number: 7      //the second number I chose
 
 ## Commonly Asked Questions
 
-### Q~1~. What are Classes and why do they go before Methods. i.e.
+### Q1. What are Classes and why do they go before Methods. i.e.
 ```csharp
 class FirstClass{
 	//Methods go here
@@ -303,7 +303,7 @@ class FirstClass{
 **Answer:** Classes is a *template for objects*, and an object is an *instance of a class*. In other words they are like ***containers***. They hold all the various methods, objects, attributes, etc.
  
 ---
-### Q~2~. What is the point of adding public before the Method declaration. i.e.
+### Q2. What is the point of adding public before the Method declaration. i.e.
 ```csharp
 public void Method1();
 ```
@@ -315,7 +315,7 @@ public void Method1();
 |`private`|The code is only accessible within the same class|
  
 ---
-### Q~3~. What does adding static before the return type do? i.e.
+### Q3. What does adding static before the return type do? i.e.
 ```csharp
 public static void Method2();
 ```
