@@ -1,3 +1,4 @@
+
 # EmpTech Methods Info Sheet
 ### by Bad
 ### Table of Contents
@@ -8,6 +9,11 @@
     + [Parameter Methods](#parameter-methods)
     + [Return Methods](#return-methods)
     + [Applying both in One Method](#applying-both-in-one-method)
+   * [Commonly Asked Questions](#commonly-asked-questions)
+	 + [Q~1~. What are Classes and why do they go before Methods.](#q-1--what-are-classes-and-why-do-they-go-before-methods-ie)
+	  + [Q~2~. What is the point of adding public before the Method declaration.](#q-2--what-is-the-point-of-adding-public-before-the-method-declaration-ie)
+	  + [Q~3~. What does adding static before the return type do?](#q-3--what-does-adding-static-before-the-return-type-do-ie)
+   
 
 
 
@@ -284,3 +290,71 @@ Input the first number: 5       //number I chose
 Input the second number: 7      //the second number I chose
 12								//the sum
 ```
+----------------------------------------------------------------------------
+
+## Commonly Asked Questions
+
+### Q~1~. What are Classes and why do they go before Methods. i.e.
+```csharp
+class FirstClass{
+	//Methods go here
+}
+```
+**Answer:** Classes is a *template for objects*, and an object is an *instance of a class*. In other words they are like ***containers***. They hold all the various methods, objects, attributes, etc.
+ 
+---
+### Q~2~. What is the point of adding public before the Method declaration. i.e.
+```csharp
+public void Method1();
+```
+**Answer:** These are *Access Modifiers*. They are used to set the access level/visibility for classes, fields, methods and properties.  The following table will show you the two main Access Types and their uses.
+
+|Access Type | Description|
+|:-:|:-:|
+|`public`|The code is accessible for all classes (can be activated by other classes)|
+|`private`|The code is only accessible within the same class|
+ 
+---
+### Q~3~. What does adding static before the return type do? i.e.
+```csharp
+public static void Method2();
+```
+**Answer:** In C#, static means something which *cannot be instantiated*. Take for example these two methods
+
+Method 1 (Base Method)
+```csharp
+class Program{
+
+	static void Main(string[] args){
+		Console.WriteLine("Hi, I'm the Base");
+		System.Threading.Thread.Sleep(5000);
+		
+	}
+}
+```
+Method 2 
+```csharp
+class Method2{
+	//unlike previously we'll add static before void
+	public static void Callable_Method(){
+		Console.WriteLine("I'm the Second Method");
+	}
+}
+```
+Now that the static keyword was used we can no longer instantiate it in the Base Method. How then would we access it, you ask. Easy.
+
+Method 1 (Base Method)
+```csharp
+class Program{
+
+	static void Main(string[] args){
+		Console.WriteLine("Hi, I'm the Base");
+		System.Threading.Thread.Sleep(5000);
+		
+		//instead of doing the classic:
+		//Method2 m2 = new Method2(); we just
+		Method2.Callable_Method();
+	}
+}
+```
+> There is more to the static keyword than that, but that's for another time. It gets a bit more complicated.
