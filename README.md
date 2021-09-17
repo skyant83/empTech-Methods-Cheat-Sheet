@@ -10,9 +10,9 @@
     + [Return Methods](#return-methods)
     + [Applying both in One Method](#applying-both-in-one-method)
    * [Commonly Asked Questions](#commonly-asked-questions)
-	 + [Q1. What are Classes and why do they go before Methods.](#q-1--what-are-classes-and-why-do-they-go-before-methods-ie)
-	  + [Q2. What is the point of adding public before the Method declaration.](#q-2--what-is-the-point-of-adding-public-before-the-method-declaration-ie)
-	  + [Q3~. What does adding static before the return type do?](#q-3--what-does-adding-static-before-the-return-type-do-ie)
+	 + [Q1. What are Classes and why do they go before Methods.](#q1-what-are-classes-and-why-do-they-go-before-methods-ie)
+	 + [Q2. What is the point of adding public before the Method declaration.](#q2-what-is-the-point-of-adding-public-before-the-method-declaration-ie)
+	 + [Q3. What does adding static before the return type do?](#q3-what-does-adding-static-before-the-return-type-do-ie)
    
 
 
