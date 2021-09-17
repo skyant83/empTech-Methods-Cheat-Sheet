@@ -1,7 +1,15 @@
 # EmpTech Methods Info Sheet
 ### by Bad
+### Table of Contents
+  * [Defining Methods](#defining-methods)
+    + [Methods](#methods)
+    + [Creating A New Class File (i.e. new .cs)](#creating-a-new-class-file-ie-new-cs)
+    + [Calling Methods](#calling-methods)
+    + [Parameter Methods](#parameter-methods)
+    + [Return Methods](#return-methods)
+    + [Applying both in One Method](#applying-both-in-one-method)
 
- 
+
 
 ## Defining Methods
 ### Methods
