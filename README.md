@@ -37,8 +37,9 @@ class Program{
 }
 ```
 >Notes:
->1.  that the *class Program* part is not considered a part of the method itself
->2.  the Main Program is the only one that can run on it's own.
+>1.  That the *class Program* part is not considered a part of the method itself
+>2.  The Main Program is the only one that can run on it's own.
+>3.  There can exist multiple methods within a single class
 
 -------------------------------------------------------------------
 ### Creating A New Class File (i.e. new .cs)
