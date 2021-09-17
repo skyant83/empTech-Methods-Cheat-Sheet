@@ -26,7 +26,7 @@
  * Example of a Method:
 ```csharp
 class Program{
-
+        //the STATIC keyword is considered the start of the Method
 	static void Main(string[] args){
 		
 		Console.WriteLine("I am a Method");
