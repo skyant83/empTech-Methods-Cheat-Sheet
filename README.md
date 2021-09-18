@@ -48,7 +48,8 @@ class Program{
 alt="Creating Methods" width="480" height="360" border="10" /></a>
 > Click this video
 -------------------------------------------------------------------
-### Calling Methods 
+### Calling Methods
+aka Creating objects... aka instantiation
 **Lets Say I Have Two Separate Methods**
 
 Method 1 (Base Method)
